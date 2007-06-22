@@ -1,0 +1,19 @@
+#summary How to use Fit2PDA
+#labels Featured,Phase-Deploy
+
+= Converting scanned papers with Fit2PDA =
+
+You can *Fit2PDA* to convert books or other scanned documents. 
+The principle of it's work is rather simple: *Fit2PDA* splits pages of scanned books into lines and split lines into parts so that they fit into PDA display. You can see how it works [http://anton_nazarov.fatal.ru/doku.php?id=projects:qtsplitter:example here].
+*Fit2PDA* will produce html with images having width of screen of your device.
+
+You need to download *Fit2PDA* from program's page program's page, run //fit2pda.exe// or //fit2pda//.
+Then you should add your books to program and choose parameters of conversion: width of screen of your device, desired resolution (dpi, 170-190 dpi for modern Palms or Pockets, 70-90 dpi for older Palms and Pockets, 96 or 130 dpi for smartphones). 
+Also you can choose to chunk resulted html into chunks because some programs on some devices are unable to show documents with big number of big images. 
+Then press convert and take a cup of coffee, because conversion will take rather long time.
+
+Then you could convert this html to iSilo (don't forget to uncheck "Resize large images" checkbox) or read it with Pocket IE.
+
+*Fit2PDA* also may be useful to convert handwritten lecture notes, as you can see [http://anton_nazarov.fatal.ru/doku.php?id=projects:qtsplitter:example here on bottom picture], but you'd better to use some methods to improve image quality, especially contrast, and suppress squares.
+
+You can also write me and read my [http://anton_nazarov.fatal.ru/blog/blogger.html blog] if you want to know more about *Fit2PDA*. 
