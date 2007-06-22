@@ -1,0 +1,10 @@
+#summary Some advices and links on reading on PDA
+#labels Featured
+
+= Reading books =
+
+I've written rather long article on reading scientific books on PDA, you can find it [http://anton_nazarov.fatal.ru/doku.php?do=show&id=projects%3Areading%3Aenglish here]
+
+Also you may be interested in special software for reading on Palm, so take a look at [http://www.isilo.com iSilo] and [http://maksee.narod.ru/palm/rta/ ReadThemAll]
+
+If you are more interested in Pocket PC or smartphones, please consult [http://anton_nazarov.fatal.ru/doku.php?do=show&id=projects%3Areading%3Aenglish my article], it contains quite a few links. 
