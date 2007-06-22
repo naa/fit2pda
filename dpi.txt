@@ -1,0 +1,11 @@
+djvups - convert from djvu to ps
+
+== screen resolutions ==
+qvga pocketpc: 96dpi 320x240
+vga pocketpc: 192dpi 640x480
+win mobile smartphones: 96 dpi 176x220 
+			131 dpi 240x320
+older palms: 72 dpi 160x160
+newer palms^ 160 dpi 320x320
+
+

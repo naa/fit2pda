@@ -1,0 +1,8 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource>
+        <file>images/add.png</file>
+        <file>images/adddir.png</file>
+        <file>images/clear.png</file>
+        <file>images/convert.png</file>
+   </qresource>
+    </RCC>
