@@ -1,6 +1,4 @@
 #labels Featured,Howto
-#How to use fit2pda
-
 = Converting scanned papers with Fit2PDA =
 
 You can *Fit2PDA* to convert books or other scanned documents. 
@@ -17,6 +15,5 @@ Then you could convert this html to iSilo (don't forget to uncheck "Resize large
 *Fit2PDA* also may be useful to convert handwritten lecture notes, as you can see [http://anton_nazarov.fatal.ru/doku.php?id=projects:qtsplitter:example here on bottom picture], but you'd better to use some methods to improve image quality, especially contrast, and suppress squares.
 
 You can also write me and read my [http://anton_nazarov.fatal.ru/blog/blogger.html blog] if you want to know more about *Fit2PDA*. 
-
 
 
