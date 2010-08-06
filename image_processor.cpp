@@ -108,7 +108,7 @@ QList<QImage> * ImageProcessor::processImage(QString filename) {
 	delete tmpim;
 	monoImage.save("test2.png","png");
 	//	image.save("test3.png","png");
-	blackIsOne=isBlackOne(monoImage);
+	blackIsOne=true;//isBlackOne(monoImage);
 	//char *prefix="resized_";
 	int numPrevNonEmptyLines=0;
 	int resHeight=0;
@@ -131,8 +131,10 @@ QList<QImage> * ImageProcessor::processImage(QString filename) {
 			nonEmptyNum++;
 		}
 	}
-	mean=mean/nonEmptyNum;
-	std::cout << "lm: " << leftmost << " rm: " << rightmost << " mean: " << mean <<  " ne num " << nonEmptyNum << std::endl;
+	if (nonEmptyNum>0) {
+	  mean=mean/nonEmptyNum;
+	}
+	// std::cout << "lm: " << leftmost << " rm: " << rightmost << " mean: " << mean <<  " ne num " << nonEmptyNum << std::endl;
 
 	bool readyToCut = false;
 	int cutLine=0;
